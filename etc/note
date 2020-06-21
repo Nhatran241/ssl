@@ -1,1 +1,2 @@
 sudo a2enmod
+sudo a2enmod rewrite
