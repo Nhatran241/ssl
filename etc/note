@@ -1,2 +1,8 @@
 sudo a2enmod ssl
 sudo a2enmod rewrite
+
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt install python-certbot-apache
+sudo ufw allow 'Apache Full'
+sudo ufw delete allow 'Apache'
+sudo certbot --apache -d your_domain
