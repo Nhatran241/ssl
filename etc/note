@@ -1,2 +1,2 @@
-sudo a2enmod
+sudo a2enmod ssl
 sudo a2enmod rewrite
